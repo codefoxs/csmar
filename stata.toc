@@ -1,0 +1,5 @@
+v 0.1.3
+
+d 'CSMAR': module to import data from CSMAR zip/xlsx file
+
+p csmar
