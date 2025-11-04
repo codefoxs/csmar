@@ -7,11 +7,11 @@ Import data from CSMAR zip/xlsx file.
 ```stata
 * Latest version
 cap ado uninstall csmar
-net install esa, from("https://raw.githubusercontent.com/codefoxs/csmar/main/") replace
+net install csmar, from("https://raw.githubusercontent.com/codefoxs/csmar/main/") replace
 
 * Old versions
 cap ado uninstall csmar
-net install esa, from("https://raw.githubusercontent.com/codefoxs/csmar/v#.#.#/") replace
+net install csmar, from("https://raw.githubusercontent.com/codefoxs/csmar/v#.#.#/") replace
 ```
 
 ## Example
